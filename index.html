@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>House Keeping service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <style>
+    .swiper-pagination-custom {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .swiper-pagination-custom .swiper-pagination-bullet {
+      margin: 0 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #bbb;
+      cursor: pointer;
+    }
+  
+    .swiper-pagination-custom .swiper-pagination-bullet-active {
+      background-color: #000;
+    }
+  </style>
+  <body>
+    <nav
+      class="bg-purple-800 text-black sm:bg-yellow-500 lg:bg-green-300 xl:bg-purple-900 flex justify-between"
+    >
+      <div class="flex flex-col items-center justify-center">
+       
+        <img
+          src="MS house keeping logo a.png"
+          class="h-16 mt-0.5 w-18"
+          alt=""
+        />
+      </div>
+
+      <ul class="px-28 w-fit py-4 flex space-x-11 justify-end fixed">
+        <li class="cursor-pointer">Home</li>
+        <li class="relative">
+          <!-- <label for="dropdown" class="block text-sm font-medium text-gray-700">Dropdown</label> -->
+          <select id="dropdown" name="dropdown" class="-mt-1 w-full pl-3 pr-10 py-2 text-bold  sm:text-sm rounded-md bg-purple-800 text-black">
+            <option>Service</option>
+            <option>House deep cleaning</option>
+            <option>Office cleaning</option>
+            <option>kitchen cleaning</option>
+            <option>Bathroom cleaning</option>
+          </select>
+          
+              <path
+                fill-rule="evenodd"
+                d="M10 12l-6-6h12l-6 6z"
+              ></path>
+            </svg>
+         
+        </li>
+        <li class="cursor-pointer">Contact Us</li>
+      </ul>
+    </nav>
+    <main class="bg-fuchsia-100 flex justify-around fixed ">
+      <div class="main py-40 pl-9">
+        <div class="text-6xl">
+          House Keeping Services
+        </div>
+        <h1 class="font-bold">"A clean home is a happy home."</h1>
+        
+        <p class="py-3 w-1/2">
+          Our team of dedicated professionals is passionate about delivering 
+          exceptional service and ensuring your satisfaction. We offer a wide range of housekeeping services tailored to meet your unique needs, whether it's regular cleaning, deep cleaning, 
+           or organizing cluttered spaces. With our expertise and attention to detail, 
+           we guarantee a spotless and refreshed home every time.
+        </p>
+        <div class="my-4">
+          <button
+            class="bg-purple-800 px-3 py-3 rounded-2xl text-white hover:text-purple-900 hover:bg-white mx-2 hover:border-2 hover:border-purple-900"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center w-full">
+        <img src="hkpic.svg" class="w-full" alt="" />
+      </div>
+     
+    </main>
+    <div class="mt-8 mb-8 ">
+      <section class="">
+        <div class="flex flex-row">
+          <div class="swiper-container max-w-sm mx-auto">
+            <div class="swiper-wrapper -mx-50">
+              <div class="swiper-slide">
+                <div class="w-full gap-5 shadow-xl bg-white border border-gray-200 rounded-lg dark:bg-white dark:border-white">
+                  <div class="flex justify-end px-4 pt-4">
+                  </div>
+                  <div class="flex mt-4 flex-col items-center pb-4">
+                    <img class="w-24 h-24 mb-2 rounded-full shadow-lg" src="images\service1.jpg" alt="Floor cleaning image"/>
+                    <h5 class="mb-1 text-lg font-medium text-gray-900 dark:text-white">Floor Cleaning</h5>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">Traditional damp mopping remains the best way to clean many types of floors. While flat mops like Swiffers are great for daily cleanup of dust and light soil, only a good, thorough weekly damp mopping with a proper cleaning solution and a mop can really provide the deep-down cleaning a floor needs.</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Add more swiper slides here -->
+              <div class="swiper-slide">
+                <div class="w-full gap-5 shadow-xl bg-white border border-gray-200 rounded-lg dark:bg-white dark:border-white">
+                  <div class="flex justify-end px-4 pt-4">
+                  </div>
+                  <div class="flex mt-4 flex-col items-center pb-4">
+                    <img class="w-24 h-24 mb-2 rounded-full shadow-lg" src="images\service1.jpg" alt="Floor cleaning image"/>
+                    <h5 class="mb-1 text-lg font-medium text-gray-900 dark:text-white">Floor Cleaning</h5>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">Traditional damp mopping remains the best way to clean many types of floors. While flat mops like Swiffers are great for daily cleanup of dust and light soil, only a good, thorough weekly damp mopping with a proper cleaning solution and a mop can really provide the deep-down cleaning a floor needs.</span>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="w-full gap-5 shadow-xl bg-white border border-gray-200 rounded-lg dark:bg-white dark:border-white">
+                  <div class="flex justify-end px-4 pt-4">
+                  </div>
+                  <div class="flex mt-4 flex-col items-center pb-4">
+                    <img class="w-24 h-24 mb-2 rounded-full shadow-lg" src="images\service1.jpg" alt="Floor cleaning image"/>
+                    <h5 class="mb-1 text-lg font-medium text-gray-900 dark:text-white">Floor Cleaning</h5>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">Traditional damp mopping remains the best way to clean many types of floors. While flat mops like Swiffers are great for daily cleanup of dust and light soil, only a good, thorough weekly damp mopping with a proper cleaning solution and a mop can really provide the deep-down cleaning a floor needs.</span>
+                  </div>
+                </div>
+              </div>
+               <div class="swiper-slide">
+                <div class="w-full gap-5 shadow-xl bg-white border border-gray-200 rounded-lg dark:bg-white dark:border-white">
+                  <div class="flex justify-end px-4 pt-4">
+                  </div>
+                  <div class="flex mt-4 flex-col items-center pb-4">
+                    <img class="w-24 h-24 mb-2 rounded-full shadow-lg" src="images\service1.jpg" alt="Floor cleaning image"/>
+                    <h5 class="mb-1 text-lg font-medium text-gray-900 dark:text-white">Floor Cleaning</h5>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">Traditional damp mopping remains the best way to clean many types of floors. While flat mops like Swiffers are great for daily cleanup of dust and light soil, only a good, thorough weekly damp mopping with a proper cleaning solution and a mop can really provide the deep-down cleaning a floor needs.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination-custom"></div>
+          </div>
+        </div>
+        
+        <!-- Include the required scripts for Swiper -->
+        
+        
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 1,
+              spaceBetween: 10,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              pagination: {
+                el: '.swiper-pagination-custom',
+                clickable: true,
+                renderBullet: function (index, className) {
+                  return '<span class="' + className + '">' + (index + 1) + '</span>';
+                },
+              },
+            });
+          });
+        </script>
+        
+      </section>
+      
+  </div>
+  
+  </body>
+</html>
